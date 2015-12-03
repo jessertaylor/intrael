@@ -53,7 +53,7 @@ else (LIBFREENECT_LIBRARIES AND LIBFREENECT_INCLUDE_DIRS)
   
   find_path(LIBFREENECT_REG_INCLUDE_DIR
     NAMES
-	libfreenect-registration.h
+	libfreenect_registration.h
     PATHS
       /usr/include/libfreenect
       /usr/local/include/libfreenect
