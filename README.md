@@ -1,6 +1,6 @@
 # intrael
 
-## I have applied the outstanding patches and this now builds successfully
+## I have applied the outstanding patches from Google Code and this now builds successfully
 
 Intrael is a server that provides an HTTP interface for the MS kinect. It processes the depth stream coming from the device and thresholds it based on fixed depth ranges or a reference background frame. It then measures several properties for the blobs it finds and provides them to network clients wrapped as JSON arrays. These can be retrieved through polling with XHRs or real streaming with Server Sent Events.
 
