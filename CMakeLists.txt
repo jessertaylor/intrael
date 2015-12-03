@@ -58,6 +58,7 @@ include (SetupDirectories)
 # Find packages needed to build library
 find_package(libfreenect REQUIRED)
 find_package(libjpeg REQUIRED)
+find_package(libusb-1.0 REQUIRED)
 if (WIN32)
   set(THREADS_USE_PTHREADS_WIN32 true)
 endif()
