@@ -108,7 +108,7 @@ typedef int SOCKET;
 #endif
 #include <pthread.h>
 #include <libfreenect.h>
-#include <libfreenect-registration.h>
+#include <libfreenect_registration.h>
 #include "queue.h"
 #include "md5.h"
 
