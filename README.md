@@ -2,6 +2,12 @@
 
 ## I have applied the outstanding patches from Google Code and this now builds successfully
 
+You may need libjpeg-devel, so:
+
+```
+yum install libjpeg-devel
+```
+
 Intrael is a server that provides an HTTP interface for the MS kinect. It processes the depth stream coming from the device and thresholds it based on fixed depth ranges or a reference background frame. It then measures several properties for the blobs it finds and provides them to network clients wrapped as JSON arrays. These can be retrieved through polling with XHRs or real streaming with Server Sent Events.
 
 Using nothing more than plain AJAX, computer vision can be performed directly in the browser. From smart surveillance cameras to all kinds of interactive surfaces, a multitude of new possibilities opens up for web development. The client server approach allows great versatility.
